@@ -14,9 +14,12 @@
 
   /* Colors */
   --color-black: #000000;
+  --color-light-black: #121215;
   --color-dark-gray:#1C1C22;
   --color-light-gray: #DADAE5;
+  --neutral-gray: #BBBBC7;
   --color-white: #FFFFFF;
+  --color-neutral-light: #DDDDE9;
   --color-medium-gray: #8D8D99;
   --color-midnight-gray: #2B2B33;
   --color-mint-green: #98F2E2;
@@ -26,12 +29,14 @@
   /* Color Uses */
   --main-app-bg: var(--color-black);
   --secondary-background: var(--color-dark-gray);
+  --modal-background: var(--color-light-black);
   --main-app-text: var(--color-light-gray);
-
   --secondary-text-color: var(--color-medium-gray);
   --body-text-color: var(--color-medium-gray);
   --toggle-background-color: var(--color-midnight-gray);
   --toggle-circle-color: var(--color-mint-green);
+  --icon-color: var(--neutral-gray);
+  --icon-hover-color: var(--color-neutral-light);
 
 }
 
