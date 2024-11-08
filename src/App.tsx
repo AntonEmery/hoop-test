@@ -20,7 +20,7 @@ const App = () => {
 
       <button
         onClick={openModal}
-        className="px-4 py-2 bg-blue-600 text-white rounded-md"
+        className="px-4 py-2 rounded-lg text-[var(--button-text-color)] bg-[var(--color-graphite-gray)] hover:text-[var(--button-hover-text-color)] hover:bg-[var(--button-hover-background-color)]"
       >
         Open Account Modal
       </button>
