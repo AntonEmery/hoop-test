@@ -25,6 +25,8 @@
   --color-mint-green: #98F2E2;
   --color-graphite-gray: #24242B;
   --color-light-gray-blue: #D2D2DB;
+  --color-neutral-dark: #3C3C47;
+  --color-blue: #41AAFF;
 
 
 
@@ -35,8 +37,6 @@
   --main-app-text: var(--color-light-gray);
   --secondary-text-color: var(--color-medium-gray);
   --body-text-color: var(--color-medium-gray);
-  --toggle-background-color: var(--color-midnight-gray);
-  --toggle-circle-color: var(--color-mint-green);
   --icon-color: var(--neutral-gray);
   --icon-hover-color: var(--color-neutral-light);
 
@@ -44,6 +44,11 @@
   --button-hover-text-color: var(--color-light-gray-blue);
   --button-background-color: var(--color-dark-gray);
   --button-hover-background-color: var(--color-graphite-gray);
+  --button-border-active: var(--color-blue);
+
+  --toggle-background-color: var(--color-midnight-gray);
+  --toggle-button-on-background: var(--color-mint-green);
+  --toggle-button-off-background: var(--color-neutral-dark);
 
   --modal-max-height: 512px;
 
