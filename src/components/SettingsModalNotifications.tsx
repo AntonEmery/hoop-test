@@ -57,13 +57,13 @@ const SettingsModalNotifications = () => {
       <h2 className="text-lg font-semibold mb-4">Notifications</h2>
         <div className="space-y-4">
           <div className="flex justify-between">
-            <span className="min-w-[340px]">Notification type:</span>
+            <span className="min-w-[var(--notification-col-width)]">Notification type:</span>
             <span className="text-xs text-[var(--secondary-text-color)] self-center">Email</span>
             <span className="text-xs text-[var(--secondary-text-color)] self-center">Slack</span>
           </div>
           {Object.keys(notifications).map((type) => (
             <div key={type} className="flex justify-between items-center pb-2">
-              <span className="text-sm text-[var(--secondary-text-color)]  capitalize min-w-[340px]">{type.replace(/([A-Z])/g, " $1")}</span>
+              <span className="text-sm text-[var(--secondary-text-color)]  capitalize min-w-[var(--notification-col-width)]">{type.replace(/([A-Z])/g, " $1")}</span>
               <div className="flex items-center space-x-4">
                 { 'email' in notifications[type as NotificationTypeKey] && <ToggleSwitch
                   label="Email"
