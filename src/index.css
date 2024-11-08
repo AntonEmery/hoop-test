@@ -23,6 +23,8 @@
   --color-medium-gray: #8D8D99;
   --color-midnight-gray: #2B2B33;
   --color-mint-green: #98F2E2;
+  --color-graphite-gray: #24242B;
+  --color-light-gray-blue: #D2D2DB;
 
 
 
@@ -38,5 +40,14 @@
   --icon-color: var(--neutral-gray);
   --icon-hover-color: var(--color-neutral-light);
 
+  --button-text-color: var(--color-medium-gray);
+  --button-hover-text-color: var(--color-light-gray-blue);
+  --button-background-color: var(--color-dark-gray);
+  --button-hover-background-color: var(--color-graphite-gray);
+
+  --modal-max-height: 512px;
+
+  /* Border Styling */
+  --border-color: var(--color-graphite-gray);
 }
 
