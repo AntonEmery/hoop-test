@@ -17,7 +17,7 @@ const Modal = ({ isOpen, onClose, hasCloseIcon = true, children }: ModalProps) =
         {hasCloseIcon && (
         <button
           onClick={onClose}
-          className="absolute top-9 right-6 font-bold text-2xl text-[var(--icon-color)] hover:text-[var(--icon-hover-color)]"
+          className="absolute top-7 right-6 font-bold text-2xl text-[var(--icon-color)] hover:text-[var(--icon-hover-color)]"
           aria-label="Close"
         >
           &times;
