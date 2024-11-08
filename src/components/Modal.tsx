@@ -13,7 +13,7 @@ const Modal = ({ isOpen, onClose, hasCloseIcon = true, children }: ModalProps) =
 
   return ReactDOM.createPortal(
     <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
-      <div className="border border-[var(--border-color)] rounded-lg p-6 w-[743px] h-[512px] mx-4 px-2 py-2 relative shadow-lg">
+      <div className="border border-[var(--border-color)] rounded-lg p-6 w-[var(--modal-width)] h-[var(--modal-max-height)] mx-4 px-2 py-2 relative shadow-lg">
         {hasCloseIcon && (
         <button
           onClick={onClose}

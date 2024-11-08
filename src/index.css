@@ -36,9 +36,11 @@
   --modal-background: var(--color-light-black);
   --main-app-text: var(--color-light-gray);
   --secondary-text-color: var(--color-medium-gray);
+
   --body-text-color: var(--color-medium-gray);
   --icon-color: var(--neutral-gray);
   --icon-hover-color: var(--color-neutral-light);
+  --border-color: var(--color-graphite-gray);
 
   --button-text-color: var(--color-medium-gray);
   --button-hover-text-color: var(--color-light-gray-blue);
@@ -51,8 +53,9 @@
   --toggle-button-off-background: var(--color-neutral-dark);
 
   --modal-max-height: 512px;
+  --modal-max-width: 743px;
+  --settings-right-col-width: 527px;
+  --notification-col-width: 340px;
 
-  /* Border Styling */
-  --border-color: var(--color-graphite-gray);
 }
 

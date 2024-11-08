@@ -17,7 +17,6 @@ const App = () => {
   return (
     <MainContainer>
       <Header />
-
       <button
         onClick={openModal}
         className="px-4 py-2 rounded-lg text-[var(--button-text-color)] bg-[var(--color-graphite-gray)] hover:text-[var(--button-hover-text-color)] hover:bg-[var(--button-hover-background-color)]"
@@ -30,7 +29,6 @@ const App = () => {
           <SettingsModal />
         </Modal>
       )}
-
     </MainContainer>
   )
 }

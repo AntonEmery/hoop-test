@@ -2,7 +2,7 @@ import avatarUrl from '../assets/avatar-web.jpg';
 
 const SettingsModalAccount = () => {
   return (
-    <main className="flex-grow min-w-[527px] pt-8 pl-10 pr-8 rounded-lg bg-[var(--secondary-background)] border border-[var(--border-color)]">
+    <main className="flex-grow min-w-[var(--settings-right-col-width)] pt-8 pl-10 pr-8 rounded-lg bg-[var(--secondary-background)] border border-[var(--border-color)]">
       <h2 className="text-lg font-semibold mb-4">Account</h2>
 
       <div className="flex justify-start gap-2 mb-4">
@@ -24,7 +24,6 @@ const SettingsModalAccount = () => {
       <p className="text-[14px] text-[var(--color-white)]">Subscription</p>
       <span className="text-sm text-[var(--color-medium-gray)]">You have a free subscription courtesy of Hoop</span>
       </div>
-
     </main>
   )
 }
